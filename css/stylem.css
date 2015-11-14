@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background:url(../images/mbackexp.jpg);
+	background-color:#FFF;
+	background-repeat:repeat-x;
+	background-position:top;
+	margin-top:0px;
+}
+html, body{
+	margin: 0; padding: 0;
+	font-family:'rockw';
+	color:#000;
+	font-size:40pt;
+	height:100%;
+}
+@font-face {
+   font-family: 'ama';
+   src: url(../fonts/ama.ttf);
+}
+@font-face {
+   font-family: 'bebas';
+   src: url(../fonts/bebas.TTF);
+}
+@font-face {
+   font-family: 'falk';
+   src: url(../fonts/falk.ttf);
+}
+@font-face {
+   font-family: 'agentfb';
+   src: url(../fonts/agentfb.ttf);
+}
+@font-face {
+   font-family: 'rockw';
+   src: url(../fonts/rockw.ttf);
+}
+.rockw {
+   font-family: 'rockw';
+   /*font-size: 3.2em;*/
+}
+.agentfb {
+   font-family: 'agentfb';
+   /*font-size: 3.2em;*/
+}
+.ama {
+   font-family: 'ama';
+   /*font-size: 3.2em;*/
+}
+.falk {
+   font-family: 'falk';
+   /*font-size: 3.2em;*/
+}
+#loginheaderb{
+	background:#00477f;color:#FFF; height:80px; text-align:center; font-size:25pt; font-family:'rockw'
+}
+.moheader{
+	color:#00477f; font-family:'rockw'; font-size:25pt;
+}
+.moheader_b{
+	color:#00477f; font-family:'rockw'; font-size:27pt;
+}
+.morow{
+	color:#363636;font-size:20pt;font-family:'rockw';
+}
+.morow_b{
+	color:#363636;font-size:23pt;font-family:'rockw';
+}
+.moselect{
+	font-size:20pt;
+}
+.mcheckbox
+{
+	width:50px;
+	height:50px;
+}
+.nfound_m{
+	background:#00477f;
+	color:#FFF;
+	font-size:25pt;
+	font-family:'rockw';	
+}
+.mobiletext{
+	height:50px;
+	width:600px;
+	font-size:25pt;
+}
+.mobiletextare{
+	height:300px;
+	width:600px;
+	font-size:25pt;
+}
+.mobiletext_p1{
+	height:50px;
+	width:60px;
+	font-size:25pt;
+}
+.mobiletext_p2{
+	height:50px;
+	width:150px;
+	font-size:25pt;
+}
+.mobiletext_p3{
+	height:50px;
+	width:150px;
+	font-size:25pt;
+}
+#message2m{
+	font-size:25pt;
+	color:#000;
+	font-family: 'rockw';
+}
+.white_home{
+	color:#004682; 
+	font-weight:bold;
+	width:208px;
+	margin-left:150px;
+	text-align:center;
+	height:50px;
+	float:left;
+}
+.cleardiv {
+	clear: both;
+}
+.red{
+	color:#F00;
+	font-weight:bold;
+}
+.white{
+	color:#FFF;
+	font-family:'rockw';
+	font-weight:bold;
+}
+.white_home{
+	color:#FFF;
+	font-size:10pt; 
+	font-weight:bold;
+	font-family:'rockw';
+}
+.link_color{
+	font-family:'ama';
+	/*font-size:15pt;*/
+	color:#014681;
+	font-size:15pt;
+	font-weight:bold;
+	font-style:italic;
+}
+.formmessage{
+	text-align:center; font-style:italic; font-family:'Times New Roman'; font-size:24pt;
+}
+.contlinkc:link {
+    color:#FFF;
+}
+.contlinkc:visited {
+   color:#FFF;
+}
+.contlinkc:active {
+  color:#FFF;
+}
+.contlinkc:hover {
+    color:#cacaca;
+	text-decoration:underline;
+}
+
+#divbutton {
+	height:150px; 
+	width:80%; 
+	background:#00477f;
+	font-family:'rockw'; 
+	font-size:50pt; 
+	text-align:center;
+	margin-left:auto; 
+	margin-right:auto;
+ }
+#divbutton a {
+	color:#FFF;
+	text-decoration:none;	
+}
+#divbutton a:hover {
+	color:#000;	
+}
+#divbutton:hover {
+    background-color:#1a354a;
+	color:#000;
+}
+#divbutton_in {
+	padding-top:50px;
+}
+
+#header_menu{
+	text-align:center; background:#00477f; color:#FFF;font-family:'rockw';font-size:18pt; padding-top:10px;
+}
+#header_img{
+	text-align:center;
+}
+#mbody_home{
+	text-align:center; padding-top:80px;
+}
+#mbody{
+	text-align:center; padding-top:120px;
+}
+#mform_q{
+	font-family:'agentfb'; color:#000;font-size:25pt;
+}
+.pagetitle{
+	color:#000; font-family:'rockw'; font-size:20pt; text-align:center;
+}
+.slidingDiv {
+	height:680px;
+}
+#suggestions{
+	 position: relative; margin-left:auto; margin-right:auto; width:600px; font-size:25pt; display:none;
+}
+/* SEARCHRESULTS */
+#searchresults { border-width:1px; border-color:#919191; border-style:solid; width:600px; background-color:#004c87; font-size:25px; color:#FFF; margin-top:0px;}
+#searchresults a { display:block; background-color:#004c87; clear:left; height:56px; text-decoration:none; color:#FFF; margin-top:10px;}
+#searchresults a:hover { background-color:#2e628c; color:#ffffff; }
+#searchresults a span { color:#555555; }

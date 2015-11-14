@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+   font-family: 'ama';
+   src: url(../fonts/ama.eot);
+}
+@font-face {
+   font-family: 'bebas';
+   src: url(../fonts/bebas.eot);
+}
+@font-face {
+   font-family: 'falk';
+   src: url(../fonts/falk.eot);
+}
+@font-face {
+   font-family: 'agentfb';
+   src: url(../fonts/agentfb.eot);
+}
+@font-face {
+   font-family: 'rockw';
+   src: url(../fonts/rockw.eot);
+}

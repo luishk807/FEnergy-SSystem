@@ -1,0 +1,316 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background:url(../images/backexp.jpg);
+	background-color:#FFF;
+	background-repeat:repeat-x;
+	background-position:top;
+	margin-top:0px;
+}
+html, body{
+	margin: 0; padding: 0;
+	font-family:'ama';
+	color:#FFF;
+	font-size:13pt;
+	height:100%;
+}
+@font-face {
+   font-family: 'ama';
+   src: url(../fonts/ama.ttf);
+}
+@font-face {
+   font-family: 'bebas';
+   src: url(../fonts/bebas.TTF);
+}
+@font-face {
+   font-family: 'falk';
+   src: url(../fonts/falk.ttf);
+}
+@font-face {
+   font-family: 'agentfb';
+   src: url(../fonts/agentfb.ttf);
+}
+@font-face {
+   font-family: 'rockw';
+   src: url(../fonts/rockw.ttf);
+}
+.rockw {
+   font-family: 'rockw';
+   /*font-size: 3.2em;*/
+}
+.agentfb {
+   font-family: 'agentfb';
+   /*font-size: 3.2em;*/
+}
+.ama {
+   font-family: 'ama';
+   /*font-size: 3.2em;*/
+}
+.falk {
+   font-family: 'falk';
+   /*font-size: 3.2em;*/
+}
+#main_cont{
+	width:960px;
+	margin-right:auto;
+	margin-left:auto;
+  /*new for footer*/
+  	min-height: 100%;
+	position:relative;
+	margin-bottom: -45px;
+}
+#logincont{
+	padding-top:100px;
+}
+#loginpanel{
+	background-image:url(../images/loginpanel.jpg);
+	background-repeat:no-repeat;
+	width:578px;
+	height:391px;
+	margin-right:auto;
+	margin-left:auto;
+}
+.white_home{
+	color:#004682; 
+	font-weight:bold;
+	width:300px;
+	margin-left:20px;
+	text-align:center;
+	height:50px;
+	float:left;
+}
+.black_home{
+	color:#333; 
+	font-weight:bold;
+	width:300px;
+	font-size:10pt;
+	margin-left:20px;
+	text-align:center;
+	font-family:'falk';
+	height:50px;
+	float:left;
+}
+#form{
+	width:450px;padding-left:80px; padding-top:180px;
+}
+#questions_in{
+	padding-left:145px;
+}
+#home_button{
+	text-align:center;
+	float:left;
+}
+#form_spacer{
+	height:45px;
+}
+#form_spacerb{
+	height:14px;
+}
+.clearfooter {
+	height: 45px;
+	clear: both;
+}
+#footercont{
+	height:45px;
+	position:relative;
+	background:url(../images/backexp.jpg);
+	color:#FFF;
+	font-family:'falk';
+	font-size:12pt;
+	z-index:-1;
+}
+#footer_main{
+	 height:45px;
+	 width:1125px;
+	margin-left: auto ;
+    margin-right: auto;
+}
+#footer_in{
+	padding-top:17px;
+	text-align:center;
+}
+.footerlink{
+	color:#FFF;
+}
+.cleardiv {
+	clear: both;
+}
+.red{
+	color:#F00;
+	font-weight:bold;
+}
+.white{
+	color:#FFF;
+	font-family:'falk';
+	font-weight:bold;
+}
+.black{
+	color:#8a8888;
+	font-family:'falk';
+	font-weight:bold;
+}
+.white_home{
+	color:#FFF;
+	font-size:10pt; 
+	font-weight:bold;
+	font-family:'falk';
+}
+.link_color{
+	font-family:'ama';
+	/*font-size:15pt;*/
+	color:#014681;
+	font-size:15pt;
+	font-weight:bold;
+	font-style:italic;
+}
+.link_colorb{
+	/*font-size:15pt;*/
+	color:#014681;
+}
+#logo{
+	float:left;
+}
+#menu{
+	float:left;
+}
+#contleft{
+	float:left; background-image:url(../images/barleft.png); background-repeat:no-repeat; width:25px; height:63px;
+}
+#contmiddle{
+	float:left; background-image:url(../images/menuexp.png); background-repeat:repeat-x; height:120px; font-family:'falk'; font-size:12pt;
+}
+#contright{
+	float:left; background-image:url(../images/menuright.png); background-repeat:no-repeat; width:25px; height:120px;
+}
+#contmiddle_in{
+	margin-top:70px;
+}
+.contlink {
+	color:#FFF;
+	text-decoration: none;
+}
+.contlink:link {
+    color:#FFF;
+}
+.contlink:visited {
+   color:#FFF;
+}
+.contlink:active {
+  color:#FFF;
+}
+.contlink:hover {
+    color:#cacaca;
+	text-decoration:underline;
+}
+.contlink {
+	color:#000;
+	text-decoration: none;
+}
+.contlinkc:link {
+    color:#FFF;
+}
+.contlinkb:link {
+    color:#000;
+}
+.contlinkb:visited {
+   color:#000;
+}
+.contlinkb:active {
+  color:#000;
+}
+.contlinkb:hover {
+    color:#cacaca;
+	text-decoration:underline;
+}
+
+.contlinkc:link {
+    color:#00477f;
+}
+.contlinkc:visited {
+   color:#00477f;
+}
+.contlinkc:active {
+  color:#00477f;
+}
+.contlinkc:hover {
+    color:#cacaca;
+	text-decoration:underline;
+}
+
+.cont_t_header{
+	font-family:'falk'; font-size:12pt; color:#000;
+}
+.cont_t_row{
+	font-family:'agentfb'; font-size:10pt; color:#000;
+}
+.cont_t_nf{
+	font-family:'falk'; font-size:10pt; color:#FFF; background:#900;
+}
+#lbodycont{
+	margin-left: auto;
+    margin-right: auto;
+	width:960px;
+}
+#lbodycont_header{
+	background-image:url(../images/pageheader.png); background-repeat:no-repeat; width:954px; height:95px;font-family:'falk'; font-size:17pt;
+}
+#lbody_header_in{
+	padding-top:30px;
+	padding-left:40px;
+}
+#lbodycont_middle{
+	background-image:url(../images/pageexp.png); background-repeat:repeat-y; width:954px;color:#000;
+}
+#lbodycont_middle_in{
+	padding-left:60px; padding-right:60px;
+}
+#lbodycont_footer{
+	background-image:url(../images/pagefooter.png); background-repeat:no-repeat; width:954px; height:131px;
+}
+
+#bodycont{
+	margin-left: auto;
+    margin-right: auto;
+	width:960px;
+	padding-left:60px;
+}
+#bodycont_header{
+	background-image:url(../images/pageheaders.png); background-repeat:no-repeat; width:820px; height:95px;font-family:'falk'; font-size:17pt;
+}
+#body_header_in{
+	padding-top:30px;
+	padding-left:80px;
+}
+#bodycont_middle{
+	background-image:url(../images/pageexps.png); background-repeat:repeat-y; width:820px;color:#000;
+}
+#bodycont_middle_in{
+	padding-left:60px; padding-right:60px;
+}
+#bodycont_footer{
+	background-image:url(../images/pagefooters.png); background-repeat:no-repeat; width:820px; height:131px;
+}
+#tabmenu{
+	 height:30px;color:#00477f; font-family:'falk'; text-align:right;
+}
+#tabmenu_in{
+	padding-top:4px;
+}
+.nfound{
+	background:#00477f;
+	color:#FFF;
+	font-size:15pt;
+	text-align:center;
+	font-family:'falk';	
+}
+.slidingDiv {
+	height:350px;
+}
+#suggestions{
+	 position: relative; width:400px; font-size:15pt; display:none;
+}
+/* SEARCHRESULTS */
+#searchresults { border-width:1px; border-color:#919191; border-style:solid; width:400px; background-color:#004c87; font-size:15px; color:#FFF; margin-top:0px;}
+#searchresults a { display:block; background-color:#004c87; clear:left; height:30px; text-decoration:none; color:#FFF; margin-top:5px;}
+#searchresults a:hover { background-color:#2e628c; color:#ffffff; }
+#searchresults a span { color:#555555; }
